@@ -8,7 +8,7 @@ import { CssBaseline } from '@mui/material';
 import ThemeProvider from './theme/ThemeProvider';
 
 function App() {
-  const content = useRoutes(router, { pathname: "/zumbara-tokyo-theme-test/" });
+  const content = useRoutes(router, { pathname: "/zumbara-theme-test-TOKYO/" });
 
   return (
     <ThemeProvider>
